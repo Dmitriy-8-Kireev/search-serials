@@ -1,0 +1,32 @@
+{
+  "name": "search-serials",
+  "homepage": "https://dmitriy-8-kireev.github.io/search-serials/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prettier": "^1.13.5",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "react-scripts": "1.1.4",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.4.0",
+    "styled-components": "^3.4.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "check-prettier": "prettier --config ./.prettierrc --list-different src/**/*.js",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
