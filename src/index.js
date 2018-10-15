@@ -9,10 +9,10 @@ import { BrowserRouter } from 'react-router-dom';
 const store = getStore();
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/search-serials">
     <Provider store={store}>
       <AppRouter />
     </Provider>
   </BrowserRouter>,
-  document.getElementById('root'),
+  document.getElementById('root')
 );
