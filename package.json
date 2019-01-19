@@ -1,7 +1,7 @@
 {
   "name": "search-serials",
   "homepage": "https://dmitriy-8-kireev.github.io/search-serials/",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "prettier": "^1.13.5",
